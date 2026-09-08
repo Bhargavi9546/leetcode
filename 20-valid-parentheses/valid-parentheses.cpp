@@ -1,11 +1,7 @@
-#include <iostream>
-#include <stack>
-using namespace std;
-
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
+         stack<char> st;
 
         for(char c : s) {
             if(c == '(' || c == '{' || c == '[') {
